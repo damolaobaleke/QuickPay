@@ -9,7 +9,9 @@ let methodOverride = require('method-override')
 var app = express()
 
 //mongodb connection
-mongoose.connect('mongodb://localhost/eazifunds_pay', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb://localhost/quick_pay', { useNewUrlParser: true, useUnifiedTopology: true })
+
+//no production db yet.
 
 app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -46,6 +48,6 @@ app.use((req, res) => {
 })
 
 
-app.listen(3000, () => {
-    console.log("eazifunds.com on 3000")
+app.listen(3002, () => {
+    console.log("quickpay on 3002")
 })

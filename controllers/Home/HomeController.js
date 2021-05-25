@@ -22,12 +22,12 @@ module.exports = {
                 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
                 const msg = {
                     to: userInDb.email,
-                    from: 'info@eazifunds.com',
-                    subject: 'eazifunds.com - Confirmation for early access',
+                    from: 'info@softroniiks.com',
+                    subject: 'Quickpay - Welcome !',
                     text: emailText,
                     html: `<h1>Hello</h1>
                     <p>Thanks for joining the waiting list ${userInDb.email}</p>
-                    <p>We will keep you updated on the API</p>`,
+                    <p>We'd keep you updated on the API</p>`,
                 };
 
                 sgMail.send(msg).then(function() {
