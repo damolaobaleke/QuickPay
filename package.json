@@ -1,7 +1,7 @@
 {
   "name": "eazifunds.com",
   "version": "1.0.0",
-  "description": "eazifunds api webapp",
+  "description": "quickpay api",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eazifunds/eazifunds.com.git"
+    "url": "git+https://github.com/softroniiks/quickpay.com.git"
   },
   "keywords": [
     "API",
@@ -20,9 +20,9 @@
   "author": "Damola Obaleke",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eazifunds/eazifunds.com/issues"
+    "url": "https://github.com/softroniiks/softroniiks.com/issues"
   },
-  "homepage": "https://github.com/eazifunds/eazifunds.com#readme",
+  "homepage": "https://github.com/softroniiks/softroniiks.com#readme",
   "dependencies": {
     "@sendgrid/mail": "^7.4.2",
     "body-parser": "^1.19.0",
