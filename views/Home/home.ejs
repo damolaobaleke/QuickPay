@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/styles/home.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
 
 </head>
 
@@ -28,24 +29,20 @@
                     <%-include('../partials/Navbar')%>
 
                         <h1 class="text-center mt-5">Powering the next<br class="hide-line-break"> global businesses</h1>
-                        <img class="ef-pink-underline" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611007470/eazifunds%202.0/Line_1_bayuur.svg" alt="pink_underline">
                         <div class="sec1-paragraphs">
-                            <p class="text-center">Quick payment built for everyone. Anticipate our<br class=""><img style="width: 35px;
+                            <p class="text-center ef-npy-design">Quick payment built for everyone. </p>
+                            <!-- Anticipate our<br class=""><img style="width: 35px;
                                 position: absolute;
-                                left: 345px;" src="https://res.cloudinary.com/www-softroniiks-com/image/upload/v1621950839/quickpay/graphql-logo-white_przjxb.png" alt=""> <span class="ef-npy-design px-4 px-md-5">graphQl based payment API</span></p>
+                                left: 345px;" src="https://res.cloudinary.com/www-softroniiks-com/image/upload/v1621950839/quickpay/graphql-logo-white_przjxb.png" alt=""> <span class="ef-npy-design px-4 px-md-5">graphQl based payment API</span> -->
                         </div>
 
 
                 </div>
 
-                <img class="ef-patrn-one" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611008124/eazifunds%202.0/pattern_moarl2.svg" alt="">
-                <img class="ef-patrn-two" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611019846/eazifunds%202.0/pattern_1_ef9j0x.svg" alt="">
-
                 <form action="/register" method="POST">
                     <div class="row mt-5">
                         <div class="col-md-6">
-                            <img class="lbl-img-bg" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611010619/eazifunds%202.0/Rectangle_9_gp1yjg.svg" alt="">
-                            <label class="ef-email-label" for="email">Email Address</label>
+                            <label class="ef-email-label px-3 rounded" for="email">Email Address</label>
                             <input class="form-control ef-email-input" type="email" name="user[email]" id="email" placeholder="Enter your email address">
                         </div>
 
@@ -55,7 +52,6 @@
                     </div>
                 </form>
 
-                <img class="mt-md-5 ef-pc" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611007918/eazifunds%202.0/Group_285_krymsg.svg" alt="ef_laptop">
             </div>
         </div>
     </div>
@@ -65,33 +61,29 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <img class="ef-partners-resp" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611149678/eazifunds%202.0/Partners-responsive_i3eqtu.svg" alt="">
-                    <img class="ef-partners" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611020429/eazifunds%202.0/03_Client_t5t6wl.svg" alt="">
                     <h6 class="text-center ml-md-5">The only payments platform for your brand</h6>
-                    <p class="coming-soon-text mt-5">Coming soon</p>
+                    <p class="coming-soon-text mt-2">Coming soon</p>
                 </div>
             </div>
 
-
-            <h6 class="ml-md-4 why-ef-heading" style="">Why quickpay</h6>
-
-            <div class="row mt-5 justify-content-center" style="padding-top: 20rem;">
+            <div class="row mt-5 justify-content-center" style="padding-top: 60px;">
                 <div class="col-md-4">
-                    <img class="why-ef-img" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611052580/eazifunds%202.0/Group_r4kafo.svg" alt="">
                     <p class="why-ef ml-md-3 text-center text-md-left">Easy to use</p>
                     <p class="why-ef-p ml-md-3 text-center text-md-left">An all in one easy to platform. Our dashboard allows you to take control of your finances and aid your growth with our related products designed to get you from 0 to 1.</p>
                 </div>
                 <div class="col-md-4">
-                    <img class="why-ef-img" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611052583/eazifunds%202.0/Group_1_dzlvpf.svg" alt="">
                     <p class="why-ef ml-md-3 text-center text-md-left">No code APIs</p>
                     <p class="why-ef-p ml-md-3 text-center text-md-left">Streamline your payments through one easy to integrate unified API that evolves with you and responds to all your changes as they happen. Built for everyone and anyone.</p>
                 </div>
                 <div class="col-md-4">
-                    <img class="why-ef-img" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611052452/eazifunds%202.0/Group_qomxrr.svg" alt="">
                     <p class="why-ef ml-md-3 text-center text-md-left">Rapid Launch</p>
                     <p class="why-ef-p ml-md-3 text-center text-md-left">Start accepting payments in seconds from all your customers globallly. Say goodbye to rigorous processes to onboard and many lines of code.</p>
                 </div>
             </div>
+
+
+            <h6 class="text-center mt-5" style="">Why quickpay</h6>
+
         </div>
     </div>
     <!--Sec1-->
@@ -101,32 +93,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mob order-2 order-md-1">
-
-                    <img class="ef-playstation-img" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611053713/eazifunds%202.0/Group_Playstation_epam89.svg" alt="">
-                    <h5 class="mt-5 ml-3 ml-md-0">A technology approach<br> to a unified payment<br>and finances</h5>
+                     <h5 class="mt-5 ml-3 ml-md-0">A technology approach<br> to a unified payment<br>and finances</h5>
                     <p class="ef-sec2-p ml-3 ml-md-0">Accept payments from anywhere in the World. Fast,<br class="hide-line-break">easy and inexpensive. Managing your finances just <br class="hide-line-break">got easier.</p>
                     <input class="btn btn-primary rounded-pill ml-2 ml-md-0 py-2 px-4 border-0" type="button" value="Get started">
-                    <img class="ef-bluedots-graphic_one" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611060572/eazifunds%202.0/Blue_dots_left_1_a2ahxt.svg" alt="">
-
                 </div>
 
-                <div class="col-md-6 order-1 order-md-2">
-                    <img class="ef-globe" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611087588/eazifunds%202.0/animation_640_kk459y71-min_drhamw.gif" alt="ef_globe">
-                    <img class="ef-bluedots-row_two_graphic_one" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611060572/eazifunds%202.0/Blue_dots_left_1_a2ahxt.svg" alt="">
+                <div class="col-md-6 order-md-2 order-1">
+                    <img class="pos" src="https://res.cloudinary.com/www-softroniiks-com/image/upload/v1671479727/Softroniiks/pos_lv3vjm.gif" alt="">
                 </div>
+                
             </div>
 
-            <div class="row mt-5">
-                <div class="col-md-4">
-                    <img class="ef-dbt-card mx-4 mx-md-0" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611060594/eazifunds%202.0/Group_320_kzugue.svg" alt="ef_db_card">
-                </div>
-                <div class="col-md-4">
-                    <img class="ef-scan-phone mx-4 mx-md-0" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611086275/eazifunds%202.0/animation_500_kk43z307_t0mzm6.gif" alt="ef_scan_phone">
-                </div>
-                <div class="col-md-4">
-                    <img class="ef-pos ml-2 mx-md-0" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611086236/eazifunds%202.0/animation_500_kk46ou7v_oimsb1.gif" alt="ef_pos">
-                </div>
-            </div>
+           
         </div>
     </div>
     <!--Sec2-->
@@ -146,21 +124,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img class="ef-phone" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611064791/eazifunds%202.0/Transactions_1_1_kqipdw.svg" alt="">
-                    <img class="left-plug" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611064777/eazifunds%202.0/Plug_left_zgpg9p.svg" alt="">
+                    <img class="softroniiks-card" src="https://res.cloudinary.com/www-softroniiks-com/image/upload/v1671477187/Softroniiks/Softroniiks_card_bodaoc.png" alt="">
+                    <img class="chase-card" src="https://res.cloudinary.com/www-softroniiks-com/image/upload/v1671477187/Softroniiks/Chase_card_mhlml5.png" alt="">
+                    <!-- <img class="left-plug" src="" alt="left_plug"> -->
                 </div>
 
                 <div class="col-md-4">
                     <img class="micro-chip" src="https://res.cloudinary.com/www-softroniiks-com/image/upload/v1612992900/Softroniiks/Brand_Logo_without_inner_blue_ju7sqy.svg" alt="">
                 </div>
                 <div class="col-md-4">
-                    <img class="right-plug" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611064777/eazifunds%202.0/Plug_right_f5hmsl.svg" alt="">
-                    <img class="banks" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611064780/eazifunds%202.0/image_22_szanlc.svg" alt="">
+                    <img class="bank" src="https://res.cloudinary.com/www-softroniiks-com/image/upload/v1671477836/Softroniiks/Bank_vkwlux.gif" alt="">
                 </div>
             </div>
 
-            <div class="row justify-content-center sec3-row" style="">
-                <div class="col-md-6">
+            <div class="row justify-content-center mt-5 pb-5">
+                <div class="col-md-6 mx-2 mx-md-0" style="border: solid  2px black; padding: 10px; border-radius: 10px;">
                     <h5 class="ml-3 ml-md-0">A place for all kinds<br> of businesses to<br> grow</h5>
                     <p class="ef-sec3-p ml-3 ml-md-0"><span class="sec3-p_Mobile">Collect and manage all payments using our,<br class="hide-line-break">dashboard. Have full visibility on all your transactions.<br class="hide-line-break"></span> Building and running a business is already
                         very tough.<br class="hide-line-break"> Getting paid should be seamless.</p>
@@ -168,8 +146,8 @@
                     <button class="btn btn-secondary ml-3 ml-md-0 px-5 my-5 my-md-0 border-0">Learn more</button>
                 </div>
 
-                <div class="col-md-6">
-                    <img class="sec3-img-2" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611090380/eazifunds%202.0/Group_284_xjmclv.svg" alt="">
+                <div class="col-md-6 mt-5">
+                    <img class="sec3-img-2 ml-0 ml-md-3 mt-4" src="https://res.cloudinary.com/www-softroniiks-com/image/upload/v1671480041/Softroniiks/card-payment-checkout_a8wtvq.gif" alt="">
                 </div>
             </div>
         </div>
@@ -177,7 +155,7 @@
     <!--Sec3-->
 
     <!--Sec4-->
-    <div class="container">
+    <!-- <div class="container">
         <div class="row mt-5 sec4-row">
             <div class="col-md-8">
                 <h5 class="text-center text-md-left">Ready to get started ?</h5>
@@ -188,7 +166,7 @@
                     <div class="row my-5">
                         <div class="col-md-6">
                             <img class="lower-lbl-img-bg" src="https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611010619/eazifunds%202.0/Rectangle_9_gp1yjg.svg" alt="">
-                            <label class="lower-ef-email-label" for="email">Email Address</label>
+                            <label class="lower-ef-email-label rounded" for="email">Email Address</label>
                             <input class="form-control lower-ef-email-input" type="email" name="user[email]" id="email" placeholder="Enter your email address">
                         </div>
 
@@ -199,7 +177,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--Sec4-->
 
 

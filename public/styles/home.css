@@ -4,7 +4,7 @@
 
 @media(max-width:600px) {
     body {
-        background: #E5E5E5;
+        background: #0B2942;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -13,7 +13,6 @@
         margin-left: -10px;
     }
     .sec0-body {
-        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611000490/eazifunds%202.0/Rectangle_20_svdmtv.svg");
         background-repeat: no-repeat;
         height: 100vh;
         background-size: cover;
@@ -51,11 +50,8 @@
         outline: none;
     }
     .ef-npy-design {
-        position: absolute;
         background-color: #EA3A60;
         border-radius: 20px;
-        left: 88px;
-        bottom: -26px;
     }
     .ef-patrn-one {
         position: absolute;
@@ -86,6 +82,7 @@
         top: -18px;
         left: -111px;
         z-index: 1;
+        background-color: #E5E5E5;
         color: #02223C;
     }
     .ef-email-input {
@@ -119,13 +116,11 @@
     }
     /*SEC1*/
     .sec1-body {
-        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611020428/eazifunds%202.0/Rectangle_559_e6kfbw.svg");
+        background:aliceblue;
         background-repeat: no-repeat;
-        background-size: cover;
-        margin-top: 4rem;
+        background-size: cover; 
     }
     h6 {
-        position: absolute;
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
@@ -201,13 +196,11 @@
     /*SEC1*/
     /*SECTION 2*/
     .sec2-body {
-        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611162162/eazifunds%202.0/Sec2-Mobile_uojn0d.svg");
         background-repeat: no-repeat;
         background-size: cover;
-        padding-bottom: 23.6rem;
     }
     .mob {
-        margin-top: 22rem;
+        
     }
     h5 {
         font-style: normal;
@@ -276,10 +269,10 @@
     /*SECTION 2*/
     /*SECTION 3*/
     .ef-sec3-body {
-        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611162632/eazifunds%202.0/Sec3-Mobile-body_rsa3op.svg");
+        background: aliceblue;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 1480px;
+        height: 1280px;
     }
     .sec3-row {
         margin-top: 48rem;
@@ -291,7 +284,7 @@
     .ef-phone {
         position: absolute;
         left: 121px;
-        width: 120px;
+       
         top: -96px;
     }
     .left-plug {
@@ -335,8 +328,8 @@
         font-size: 18px;
         line-height: 35px;
         font-weight: 700;
-        color: #02073E;
-        ;
+        /* color: #02073E; */
+        color: black;
     }
     .sec3-p_Mobile {
         display: none;
@@ -369,10 +362,9 @@
         font-style: normal;
         font-weight: bold;
         font-size: 16px;
-        line-height: 24px;
-        top: 12px;
+        background-color: #E5E5E5;
         left: 62px;
-        z-index: 1;
+        top: -16px;
         color: #02223C;
     }
     .lower-ef-email-input {
@@ -395,6 +387,10 @@
         padding-right: 48px;
         color: white;
         width: 242px;
+    }
+
+    .lower-ef-join-btn:hover{
+        opacity: 0.4;
     }
     /*Footer*/
     .footer {
@@ -431,17 +427,49 @@
     .show-email {
         display: block;
     }
+    .pos{
+        width: 100%;
+    }
+    .softroniiks-card {
+       margin-top: 30px;
+        width: 100%;
+    }
+    .chase-card{
+        /* position: absolute; */
+        top: 70px;
+        width: 100%;
+    }
+    .bank{
+        display: none;
+    }
+
+    .footer-sec3-p{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 42px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .lower-ef-join-btn:hover{
+        opacity: 0.4;
+        background-color: #ffffff00;
+        border: 1px solid black;
+    }
 }
 
 @media(min-width:900px) {
     body {
-        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611000490/eazifunds%202.0/Rectangle_20_svdmtv.svg"), #E5E5E5;
+        background: #E5E5E5;
         background-repeat: no-repeat;
         height: 100vh;
         background-size: cover;
     }
     .sec0-body {
-        padding-bottom: 22rem
+        padding-bottom: 22rem;
+        background: #0B2942;
+        height: 100vh;
     }
     h1 {
         color: white;
@@ -467,11 +495,13 @@
         height: 36px;
         outline: none;
     }
-    .ef-npy-design {
-        position: absolute;
+    .ef-npy-design { 
         background-color: #EA3A60;
         border-radius: 20px;
-        left: 385px;
+        font-size: 20px;
+        width: 50%;
+        position: absolute;
+        left: 290px;
     }
     .ef-patrn-one {
         position: absolute;
@@ -498,6 +528,7 @@
         font-weight: bold;
         font-size: 16px;
         line-height: 24px;
+        background-color: #E5E5E5;
         top: 52px;
         left: -317px;
         z-index: 1;
@@ -535,14 +566,13 @@
     }
     /*SECTION 1*/
     .sec1-body {
-        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611020428/eazifunds%202.0/Rectangle_559_e6kfbw.svg");
+      
         background-repeat: no-repeat;
         background-size: cover;
-        height: 700px;
-        margin-top: 10rem;
+        height: 600px;
+        margin-top: 3rem;
     }
     h6 {
-        position: absolute;
         font-style: normal;
         font-weight: 500;
         font-size: 32px;
@@ -602,7 +632,7 @@
     }
     /*SECTION 2*/
     .sec2-body {
-        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611053709/eazifunds%202.0/white_Rectangle_d04wph.svg");
+        background: white;
         background-repeat: no-repeat;
         background-size: cover;
         padding-bottom: 3.6rem;
@@ -679,50 +709,74 @@
     }
     /*SECTION THREE*/
     .ef-sec3-body {
-        background: url("https://res.cloudinary.com/https-eazifunds-com/image/upload/v1611064778/eazifunds%202.0/Grey_Rectangle_cpqwdv.svg");
         background-repeat: no-repeat;
         background-size: cover;
-        height: 820px;
+        /* height: 500px; */
+    }
+    .footer-sec3-p{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 42px;
+        font-weight: 700;
+        color: white;
     }
     .sec3-row {
-        margin-top: 20rem;
+        /* margin-top: 20rem; */
     }
     .sec3-img-2 {
-        width: 590px;
+        width: 560px;
         position: absolute;
-        top: -105px;
+        box-shadow: 0px 20px 40px rgba(3, 7, 26, 0.602);
     }
-    .ef-phone {
-        position: absolute;
+
+    .sec3-img-2:hover {
+        /* transform: translateZ(1rem); */
+        box-shadow: 0 10px 30px -10px rgb(0 0 0 / 60%);
+        transition: 1s;
+    }
+    .softroniiks-card {
+        /* position: absolute; */
         top: -96px;
-        width: 132px;
+        width: 80%;
+    }
+    .chase-card{
+        /* position: absolute; */
+        top: 70px;
+        width: 80%;
     }
     .left-plug {
         position: absolute;
-        top: -96px;
-        left: 154px;
-        width: 426.58px;
+        left: 300px;
+        width: 200px;
+        top: 20px;
         animation-duration: 1.5s;
         animation-name: float;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
     }
+    .bank{
+        position: absolute;
+        top: -40px;
+    }
     .right-plug {
         position: absolute;
-        top: -145px;
         right: 252px;
-        width: 506px;
+        width: 206px;
+        top: 20px;
         animation-duration: 1.5s;
         animation-name: float-opposite;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
     }
+    .pos{
+        width: 105%;
+    }
     .micro-chip {
         position: absolute;
-        left: 30px;
-        top: -66px;
+        left: 80px;
         width: 179px;
-        height: 208.44px;
+        height: 160px;
     }
     .banks {
         position: absolute;
@@ -756,10 +810,9 @@
         font-style: normal;
         font-weight: bold;
         font-size: 16px;
-        line-height: 24px;
-        top: 12px;
+        background-color: #E5E5E5;
         left: 62px;
-        z-index: 1;
+        top: -16px;
         color: #02223C;
     }
     .lower-ef-email-input {
@@ -776,7 +829,6 @@
     .lower-ef-join-btn {
         position: absolute;
         left: 180px;
-        top: 34px;
         height: 80px;
         background: #02223C;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
@@ -785,6 +837,12 @@
         padding-right: 48px;
         color: white;
         width: 242px;
+    }
+
+    .lower-ef-join-btn:hover{
+        opacity: 0.4;
+        background-color: #ffffff00;
+        border: 1px solid black;
     }
     /*Footer*/
     .footer {
